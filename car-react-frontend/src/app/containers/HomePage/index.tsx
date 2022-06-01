@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import tw from 'twin.macro';
+import Navbar from '../../components/navbar/index';
 
 const PageContainer = styled.div`
   ${tw`
@@ -14,5 +15,9 @@ const PageContainer = styled.div`
 `;
 
 export default function HomePage() {
-  return <PageContainer>Hello World!</PageContainer>;
+  return (
+    <PageContainer>
+      <Navbar />
+    </PageContainer>
+  );
 }
