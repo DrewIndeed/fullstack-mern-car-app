@@ -49,8 +49,8 @@ export default function NavItems() {
     return (
       <Menu right styles={menuStyles}>
         <ListContainer>
-          {NAV_CONTENT.map((content) => (
-            <NavItem menu>
+          {NAV_CONTENT.map((content, idx) => (
+            <NavItem menu key={`nav-item-mobile-${idx}`}>
               <a href="/">{content}</a>
             </NavItem>
           ))}
@@ -60,8 +60,8 @@ export default function NavItems() {
 
   return (
     <ListContainer>
-      {NAV_CONTENT.map((content) => (
-        <NavItem>
+      {NAV_CONTENT.map((content, idx) => (
+        <NavItem key={`nav-item-regular-${idx}`}>
           <a href="/">{content}</a>
         </NavItem>
       ))}
