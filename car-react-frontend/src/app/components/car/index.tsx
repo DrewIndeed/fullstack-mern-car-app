@@ -147,7 +147,7 @@ export default function Car(props: ICarProps) {
   return (
     <CarContainer>
       <CarThumbnail>
-        <img src={thumbnailSrc} />
+        <img src={thumbnailSrc} alt="car thumbnail"/>
       </CarThumbnail>
       <CarName>{name}</CarName>
       <PricesContainer>
