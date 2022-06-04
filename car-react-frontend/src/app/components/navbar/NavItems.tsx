@@ -7,7 +7,7 @@ import { SCREENS } from "../responsive/index";
 import menuStyles from "./menuStyles";
 
 /* nav bar text content */
-const NAV_CONTENT = ["Home", "Cars", "Service", "Contact Us"];
+const NAV_CONTENT: string[] = ["Home", "Cars", "Service", "Contact Us"];
 
 const ListContainer = styled.ul`
   ${tw`
