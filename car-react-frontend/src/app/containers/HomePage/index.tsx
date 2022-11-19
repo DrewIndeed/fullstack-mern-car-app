@@ -26,19 +26,15 @@ export default function HomePage() {
       <Navbar />
 
       <TopSection />
-
       <Marginer direction="vertical" margin="2em" />
 
       <BookCard />
-
       <Marginer direction="vertical" margin="8em" />
 
       <BookingSteps />
-
       <Marginer direction="vertical" margin="8em" />
 
       <AboutUs />
-
       <Marginer direction="vertical" margin="8em" />
 
       <TopCars />
